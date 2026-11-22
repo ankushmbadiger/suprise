@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+html, body, #game {
+  width: 100%; height: 100%; margin: 0; overflow: hidden;
+  background: #fff1e9;
+}
+body {
+  font-family: "Trebuchet MS", ui-rounded, system-ui, sans-serif;
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+}
+#game { display:flex; align-items:center; justify-content:center; }
+canvas {
+  display:block;
+  max-width:100vw;
+  max-height:100dvh;
+  touch-action:none;
+  border-radius: 14px;
+  box-shadow: 0 12px 45px rgba(113, 70, 82, .12);
+}
