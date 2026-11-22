@@ -1,5 +1,3 @@
-# A Plate Made for Shravya 💗
-
 A mobile-friendly, browser-based pani puri birthday game built with Phaser 3 and Vite.
 
 ## Run locally
