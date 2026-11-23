@@ -210,7 +210,7 @@ class BirthdayScene extends Phaser.Scene {
     const isBirthdayDate=now.getFullYear()===2026 && now.getMonth()===10 && now.getDate()===24;
     if(!isBirthdayDate){
       base(this,'A little surprise is waiting…','');vendor(this,360,345,1.65,'shy');
-      label(this,360,610,'This birthday message unlocks on 23 November 2026.',24,'#604c52',{wrap:520});
+      label(this,360,610,'This birthday message unlocks on 24 November 2026.',24,'#604c52',{wrap:520});
       label(this,360,680,'Come back on the special day.',22,'#806b70',{bold:false});
       button(this,360,850,'Back to the beginning ↻',()=>this.scene.start('Welcome'),390,68);
       return;
